@@ -1,10 +1,12 @@
 .{
-    .name = "raylib_example",
+    .name = .raylib_example,
     .version = "0.0.0",
+    .fingerprint = 0xca13917dda52d8d8,
+    .minimum_zig_version = "0.16.0-dev.1484+d0ba6642b",
     .dependencies = .{
         .raylib = .{
-            .url = "https://github.com/raysan5/raylib/archive/8fbb447a6d3696766443316afeef6d033629409d.tar.gz",
-            .hash = "12200aadf15871e1edee60e61bbda4fa36eb9ef298b70fc53f1b7bb2fab68c7b20a5",
+            .url = "git+https://github.com/raysan5/raylib#6d562e5e87887777f1fedcda5ea481f0e372f0f6",
+            .hash = "raylib-5.6.0-dev-whq8uHJRCgXLBT0G0nGymmbaeJH1_UQ1hTjaTsP-tULf",
         },
     },
     .paths = .{

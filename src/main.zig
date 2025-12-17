@@ -1,5 +1,5 @@
 const std = @import("std");
-const rl = @cImport(@cInclude("raylib.h"));
+const rl = @import("rl");
 
 pub fn main() !void {
     rl.InitWindow(800, 600, "window");
