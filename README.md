@@ -9,7 +9,7 @@ run with `zig build run`
 └── build.zig.zon
 ```
 3. fetch latest raylib with `zig fetch --save git+https://github.com/raysan5/raylib`
-4. set up your `build.zig`, it mentions `src/main.zig` which we will make in step 7:
+4. set up your `build.zig`, it mentions `src/main.zig` which we will make in step 6:
 ```zig
 const std = @import("std");
 
